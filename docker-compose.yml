@@ -5,7 +5,7 @@ services:
   node:
     container_name: nodeapp
 
-    build: ./ay/
+    build: ./code/
     ports:
       - "3000:3000"
    
